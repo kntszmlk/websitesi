@@ -1,0 +1,16 @@
+git config user.email "xxxx@gmail.com"
+git config user.name "xxxxxxxx"
+git remote set-url origin git@github.com:kntszmlk/websitesi.git
+
+git remote -v
+git remote remove xxxxxx
+
+
+
+
+
+
+git credential-cache exit
+git credential reject
+  protocol=https
+  host=github.com
